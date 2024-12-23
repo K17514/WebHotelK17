@@ -114,13 +114,13 @@ class Home extends BaseController
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';   // Your SMTP server
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'ryukusune@gmail.com';  // Your email
-        $mail->Password   = 'jlgp wctt gagd vaxg';    // App password (NOT your real email password)
+        $mail->Username   = 'YourEmail@gmail.com';  // Your email
+        $mail->Password   = 'abcd efgh ijkl mnop';    // App password (NOT your real email password)
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; 
         $mail->Port       = 587; 
 
         // Recipients
-        $mail->setFrom('ryukusune@gmail.com', 'Elysium Hotel Website');
+        $mail->setFrom('YourEmail@gmail.com', 'Elysium Hotel Website');
         $mail->addAddress($email);  
 
         // Content
