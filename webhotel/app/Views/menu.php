@@ -22,6 +22,11 @@
               <i class="bi bi-circle"></i><span>Tipe Kamar</span>
             </a>
           </li>
+	  <li>
+            <a href="<?= base_url('gudang/tipekamar')?>">
+              <i class="bi bi-circle"></i><span>Tambah Tipe Kamar</span>
+            </a>
+          </li>
           <li>
             <a href="<?= base_url('gudang/tampilkamar')?>">
               <i class="bi bi-circle"></i><span>Kamar</span>
